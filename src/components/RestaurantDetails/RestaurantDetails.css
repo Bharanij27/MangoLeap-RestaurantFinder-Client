@@ -1,0 +1,10 @@
+.address p{
+    margin-bottom: 0.3rem;
+}
+
+.address-title{
+    font-size: larger;
+    text-decoration: underline;
+    font-style: oblique;
+    margin-top: 1rem !important;
+}

@@ -1,0 +1,25 @@
+.navr-bar{
+    background-color: #f53040;
+}
+
+.f-right-10{
+    right: 10%;
+    position: absolute;
+}
+
+.navr-bar a{
+    color: #ffffff;
+    text-transform: uppercase ;
+}
+
+.f-right{
+    position: absolute;
+    right: 2%;
+}
+
+@media (min-width : 100px) and (max-width : 480px){
+    .f-right{
+        display: content;
+        position: relative;
+    }
+}

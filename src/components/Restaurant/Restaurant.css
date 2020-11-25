@@ -1,0 +1,37 @@
+.res-locality{
+    font-size: smaller;
+}
+
+.cuisineType{
+    color: #0968BD;
+    background-color: #B0E0E6;
+    border-color: transparent;
+    padding: 3px;
+    border-radius: 5px;
+}
+
+.res-cuisine, #cuisine-head{
+    font-size: small;
+    margin-top: 5px;
+}
+
+.res-name h3{
+    margin-bottom: 5px !important;
+    display: inline;
+}
+
+.res-name {
+    display: block;
+}
+
+.restaurant{
+    border-bottom: 3px solid #eee;
+}
+
+.cursor{
+    cursor: pointer;
+}
+
+.restaurant:last-child{
+    border-bottom: none;
+}
