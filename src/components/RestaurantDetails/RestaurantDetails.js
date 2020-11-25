@@ -22,7 +22,7 @@ const RestaurantDetails = () => {
         else if(!restaurantId || restaurantId === 'restaurant') history.push('/selectCity')
         
         const getRestaurantDetail = async () => {
-            let response = await callAPI(`http://localhost:3030/restaurants/${restaurantId}`, {
+            let response = await callAPI(`https://restaurantfinder-server.herokuapp.com/restaurants/${restaurantId}`, {
                 token : cookies.resUser.token,
                 restaurantId 
             }, 'POST')

@@ -52,7 +52,7 @@ const Add = () => {
             return;
         }
         const addRestaurant = async () => {
-            let response = await callAPI('http://localhost:3030/restaurants/add', {
+            let response = await callAPI('https://restaurantfinder-server.herokuapp.com/restaurants/add', {
                 token : cookies.resUser.token, newRestaurtant : data
             }, 'PUT')
             if(response.status === 200){
