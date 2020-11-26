@@ -11,7 +11,7 @@ const resState = {
     'Chennai' : 'TamilNadu',
     'Mumbai' : 'Maharastra',
     'NewDelhi' : 'Delhi',
-    'Bangalore' : 'Kolkata',
+    'Bangalore' : 'Karnataka',
 }
 
 const Add = () => {
